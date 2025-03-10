@@ -33,7 +33,9 @@ events = [
     Event('2020-01-21 18:53:21', 'login', 'webserver.local', 'James'),
     Event('2020-01-22 10:25:34', 'logout', 'my_workstation.local', 'Jordan'),
     Event('2020-01-21 08:20:01', 'login', 'webserver.local', 'Jordan'),
-    Event('2020-01-23 11:24:35', 'login', 'mail_server.local', 'Chris')
+    Event('2020-01-23 11:24:35', 'login', 'mail_server.local', 'Chris'),
+    Event('2020-01-23 11:24:35', 'login', 'mail_server.local', 'Sarah'),
+    Event('2020-01-23 11:24:35', 'logout', 'webserver.local', 'James')
 ]
 users = current_users(events)
 print(users)
